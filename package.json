@@ -1,0 +1,20 @@
+{
+  "name": "smartmeeting_ETL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "json-diff": "^0.5.2",
+    "moment": "^2.22.0",
+    "mssql": "^4.1.0",
+    "objectdiff": "^1.1.0",
+    "pg": "^7.4.1"
+  }
+}
