@@ -9,8 +9,8 @@ var sql = require("mssql");
 
     // config BDD MQSQL
     var config = {
-        user: 'ROOCNPS2',
-        password: '0055l9u3an',
+        user: '',
+        password: '',
         server: 'sqlp300.groupement.systeme-u.fr', 
         database: 'ROOCNPS2',
 		connectionTimeout:3000,
@@ -26,8 +26,8 @@ var pg = require('pg');
 
     // config BDD PostGreSQL
     var client = new pg.Client({
-        user: "smartmeeting",
-        password: "sm_2K17*!",
+        user: "",
+        password: "",
         database: "smartmeeting",
         port: 5432,
         host: "10.178.150.25"
